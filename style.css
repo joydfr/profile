@@ -1,0 +1,58 @@
+body{
+  background-color : white;
+  font-family: "Mulish", sans-serif ;
+  font-weight: 300;
+  font-size: 80 px;
+  color :whitesmoke;
+}
+
+h1{
+  color: #A0937D;
+  font-family: "Mulish", sans-serif;
+  font-weight: 200;
+  line-height: 20 px;
+}
+h2{
+  color:#A0937D;
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  line-height: 20 px;
+}
+button{
+  font-size: 20px;
+  color:white;
+ text-decoration: none;
+ background: #B6C7AA;
+ border-radius: 5px;
+ border: 4px;
+ text-align: center;
+ padding: 5px;
+ margin: 10px;
+}
+button:hover{
+  text-decoration: none;
+}
+@media (max-width: 720px){
+.container{
+  width: 500px
+}
+}
+
+.card {
+  background-color: #E7D4B5;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 2px 2px 3px #A0937D;
+  text-align: center;
+  font-size: 30px;
+}
+img{
+width: 300px;
+height: 300px;
+border-radius: 150px;
+box-shadow:3px 3px 1px #A0937D;
+}
+.logo {
+color:#B6C7AA;
+font-size: 30px;
+}
